@@ -160,6 +160,7 @@ section.section1{
     color: rgb(218, 216, 216);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
+    text-align: center;
 }
 
 .section1 .box .btn{
@@ -184,6 +185,56 @@ section.section1{
 
 .section1 .box  button:hover{
     letter-spacing: 1px;
+}
+.section1  span{
+    margin-left: 150px;
+}
 
- 
+/* section 2  */
+
+
+.section2{
+    position: relative;
+    top: 70px;
+    height: 880px;
+}
+
+.section2 .box{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 960px;
+    margin-top: 55px;
+    position: relative;
+    left: 400px;
+    padding: 25px;
+}
+
+.section2 .box h1{
+    font-size: 24px;
+}
+
+.section2 .box p{
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+
+.section2 .box .linha1{
+    position: relative;
+    top: 15px;
+    width: 70px;
+    height: 2px;
+    left: 120px;
+}
+
+.section2 .box .linha2{
+    position: relative;
+    top: 16px;
+    left: 160px;
+    width: 70px;
+    height: 2px;
 }
